@@ -2,10 +2,10 @@
 
 koa with [supertest](https://github.com/visionmedia/supertest) for [ava](https://github.com/avajs/ava) or [mocha](https://github.com/mochajs/mocha)
 
-[![npm version](https://badge.fury.io/js/slettest.svg)](http://badge.fury.io/js/slettest)
-[![Build](https://travis-ci.org/i5ting/slettest.svg?branch=master)](https://travis-ci.org/i5ting/slettest)
+[![NPM version](https://img.shields.io/npm/v/sletTest.svg?style=flat-square)](https://www.npmjs.com/package/sletTest)
+[![Build](https://travis-ci.org/sletjs/sletTest.svg?branch=master)](https://travis-ci.org/sletjs/sletTest)
+[![codecov.io](https://codecov.io/github/sletjs/sletTest/coverage.svg?branch=master)](https://codecov.io/github/sletjs/sletTest?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-
 
 ## Usages
 

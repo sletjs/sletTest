@@ -4,8 +4,10 @@
   "description": "a wrapper with supertest ",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/ava -v"
-  },
+     "test": "./node_modules/.bin/nyc ./node_modules/.bin/ava -v .",
+     "report-coverage": "./node_modules/.bin/nyc report --reporter=lcov > coverage.lcov && codecov",
+     "standard": "./node_modules/.bin/standard index.js"
+   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sletjs/sletTest.git"
@@ -23,6 +25,14 @@
   "devDependencies": {
     "ava": "^0.15.2",
     "slet": "^1.0.8",
+    "codecov": "^1.0.1",
+    "ghooks": "^1.3.2",
+    "nyc": "^10.0.0",
     "standard": "^7.1.2"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run standard && npm test"
+    }
   }
 }
