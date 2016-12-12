@@ -1,6 +1,6 @@
 # slettest
 
-koa with [supertest](https://github.com/visionmedia/supertest) for [ava](https://github.com/avajs/ava) or [mocha](https://github.com/mochajs/mocha)
+sletjs with [supertest](https://github.com/visionmedia/supertest) for [ava](https://github.com/avajs/ava) or [mocha](https://github.com/mochajs/mocha)
 
 [![NPM version](https://img.shields.io/npm/v/slettest.svg?style=flat-square)](https://www.npmjs.com/package/sletTest)
 [![Build](https://travis-ci.org/sletjs/sletTest.svg?branch=master)](https://travis-ci.org/sletjs/sletTest)
