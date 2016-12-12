@@ -5,5 +5,5 @@ const debug = require('debug')('slettest')
 
 module.exports = (app) => {
   debug(app)
-  return request(app.run())
+  return request(app.listen())
 }
