@@ -3,7 +3,7 @@
 const Slet = require('slet');
 const app = new Slet({
     root: __dirname,
-    debug: true
+    debug: false
 });
 
 // response
