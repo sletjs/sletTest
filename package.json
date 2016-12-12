@@ -1,13 +1,13 @@
 {
   "name": "slettest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a wrapper with supertest ",
   "main": "index.js",
   "scripts": {
-     "test": "./node_modules/.bin/nyc ./node_modules/.bin/ava -v test.js",
-     "report-coverage": "./node_modules/.bin/nyc report --reporter=lcov > coverage.lcov && codecov",
-     "standard": "./node_modules/.bin/standard index.js"
-   },
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/ava -v test.js",
+    "report-coverage": "./node_modules/.bin/nyc report --reporter=lcov > coverage.lcov && codecov",
+    "standard": "./node_modules/.bin/standard index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sletjs/sletTest.git"
