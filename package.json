@@ -1,21 +1,21 @@
 {
-  "name": "superkoa",
+  "name": "slettest",
   "version": "1.0.2",
-  "description": "koa with supertest for ava or mocha",
+  "description": "a wrapper with supertest ",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/ava -v"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/i5ting/superkoa.git"
+    "url": "git+https://github.com/sletjs/sletTest.git"
   },
-  "author": "i5ting",
+  "author": "sletjs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/i5ting/superkoa/issues"
+    "url": "https://github.com/sletjs/sletTest/issues"
   },
-  "homepage": "https://github.com/i5ting/superkoa#readme",
+  "homepage": "https://github.com/sletjs/sletTest#readme",
   "dependencies": {
     "debug": "^2.2.0",
     "supertest": "^1.2.0"
