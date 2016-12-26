@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/sletjs/sletTest#readme",
   "dependencies": {
-    "debug": "^2.2.0",
+    "debug": "^2.5.2",
     "supertest": "^2.0.1"
   },
   "devDependencies": {
